@@ -1,7 +1,7 @@
-#include <stdio.h>
+#include <stdio.h>                 // подключние библиотеки ввода-вывода
 
-int main(void)
+int main(int argc, char* argv[])   // главна функция, точка входа программы, аргументы ф-ции
 {
-    printf("Hello, World!\n");
+    printf("Hello, World!\n");     // тело функции
     return 0;
 }
