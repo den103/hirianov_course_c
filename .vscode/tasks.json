@@ -5,6 +5,10 @@
             "label": "C/C++: gcc.exe сборка активного файла",
             "command": "C:\\w64devkit\\bin\\gcc.exe",
             "args": [
+                "-Wall",
+                "-Wextra", 
+                "-Wpedantic",
+                "-Werror",
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
